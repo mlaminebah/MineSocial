@@ -5,4 +5,4 @@ Ceci est un projet personnel qui consiste à réaliser une petit réseau social 
 - HTML,CSS
 - Javascript
 
-<img weight="24" height="24" src="https://github.com/mlaminebah/MineSocial/blob/main/internaute.png">
+<img weight="20" height="20" src="https://github.com/mlaminebah/MineSocial/blob/main/internaute.png">
