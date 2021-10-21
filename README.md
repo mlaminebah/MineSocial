@@ -31,12 +31,16 @@ Pour réaliser cela j'utilise les outils suivants
         </li>
         <li>
            <h3>Page d'accueil</h3>
-            Étant sur la age d'accueil on peut effectuer plusieurs opérations qui sont :
+           <img weight="10%" height="10%" src="https://github.com/mlaminebah/MineSocial/blob/main/accueil.png"/>
+            Sur la age d'accueil on peut effectuer plusieurs opérations qui sont :
             <ul>
-                <li><a>Voir le profil</a></li>
-                <li><a>Modifier le profil</a></li>
+                <li><h4>Voir le profil
+                    </h4><img weight="10%" height="10%" src="https://github.com/mlaminebah/MineSocial/blob/main/affichage.png"/>
+                </li>
+                <li><h4>Modifier le profil</h4></li>
+                <li><h4>Ajouter un ami</h4></li>
+                <li><h4>Publier messager</h4>
             </ul>
-            <img weight="10%" height="10%" src="https://github.com/mlaminebah/MineSocial/blob/main/accueil.png"/>
         </li>
         <li>
             <h3>Page d'affichage d'un profil</h3>
