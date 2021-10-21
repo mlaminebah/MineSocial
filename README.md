@@ -31,21 +31,26 @@ Pour réaliser cela j'utilise les outils suivants
         </li>
         <li>
            <h3>Page d'accueil</h3>
-            
-            <img weight="10%" height="10%" src="https://github.com/mlaminebah/MineSocial/blob/main/accueil.png"/>
             Étant sur la age d'accueil on peut effectuer plusieurs opérations qui sont :
             <ol>
-                <li><h4>Voir le profil</h4>
-                    <img weight="9%" height="9%" src="https://github.com/mlaminebah/MineSocial/blob/main/affichage.png"/>
-                </li>
-                <li><h4>Modifier le profil</h4>
-                    <img weight="9%" height="9%" src="https://github.com/mlaminebah/MineSocial/blob/main/modif.png"/>
-                </li>
-                <li><h4>Ajouter un ami</h4>
-                    <img weight="9%" height="9%" src="https://github.com/mlaminebah/MineSocial/blob/main/ajoutFriend.png"/>
-                </li>
+                <li><h4>Voir le profil</h4></li>
+                <li><h4>Modifier le profil</h4></li>
+                <li><h4>Ajouter un ami</h4></li>
                 <li><h4>ublier un message</h4></li>
             </ol>
+            <img weight="10%" height="10%" src="https://github.com/mlaminebah/MineSocial/blob/main/accueil.png"/>
+        </li>
+        <li>
+            <h3>Page d'affichage d'un profil</h3>
+            <img weight="10%" height="10%" src="https://github.com/mlaminebah/MineSocial/blob/main/affichage.png"/>
+        </li>
+        <li>
+            <h3>Page de modification des informations d'un profil</h3>
+            <img weight="10%" height="10%" src="https://github.com/mlaminebah/MineSocial/blob/main/modif.png"/>
+        </li>
+        <li>
+            <h3>Page d'ajout d'un ami </h3>
+            <img weight="10%" height="10%" src="https://github.com/mlaminebah/MineSocial/blob/main/ajoutFriend.png"/>
         </li>
         <li>
             <h3>Le moèle UML de du site </h3>
