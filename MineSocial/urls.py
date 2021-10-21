@@ -14,8 +14,10 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.conf.urls import url
-from MineSocial.views import welcome
+from MineSocial.views import welcome,login
 
 urlpatterns = [
     url('^welcome$', welcome),
+    url('^login$',login),
+    url('^$',login),
 ]
