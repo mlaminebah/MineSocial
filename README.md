@@ -2,11 +2,13 @@
 Un petit réseau social étudiant inspiré des foncitonnalités de Facebook
 <hr/>
 Pour réaliser cela j'utilise les outils suivants
-* Python & Django
-* Html, Css
-* avascript
-* Pencil pour déssiner les maquettes
-* Umlet pour le diagramme UML
+<ul>
+    <li>Python & Django</li>
+    <li>Html, Css</li>
+    <li>Javascript</li>
+    <li>Pencil pour déssiner les maquettes</li>
+    <li>Umlet pour le diagramme UML</li>
+</ul> 
 
 <p> Ce diagramme ci-dessous  illustre ce que peut faire un utilisateur </p>
 <img weight="8%" height="8%" src="https://github.com/mlaminebah/MineSocial/blob/main/internaute.png"/>
