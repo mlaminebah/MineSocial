@@ -1,10 +1,5 @@
-# MineSocial
-Ceci est un projet personnel qui consiste à réaliser une petit réseau social étudiant inspiré de Facebook fait en :
-- Python 
-- Django et ses modèles
-- HTML,CSS
-- Javascript
 
+<<<<<<< HEAD
 <img weight="15%" height="15%" src="https://github.com/mlaminebah/MineSocial/blob/main/minesocial.png"/>
 <img weight="15%" height="15%" src="https://github.com/mlaminebah/MineSocial/blob/main/internaute.png"/>
 <img weight="15%" height="15%" src="https://github.com/mlaminebah/MineSocial/blob/main/authentificationecran.png"/>
@@ -14,3 +9,5 @@ Ceci est un projet personnel qui consiste à réaliser une petit réseau social 
 <img weight="15%" height="15%" src="https://github.com/mlaminebah/MineSocial/blob/main/diagramme.png"/>
 <img weight="15%" height="15%" src="https://github.com/mlaminebah/MineSocial/blob/main/affichage.png"/>
 <img weight="15%" height="15%" src="https://github.com/mlaminebah/MineSocial/blob/main/modif.png"/>
+=======
+>>>>>>> e157039f1473f8628b2c7f2a3d4081905ec64524
