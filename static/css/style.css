@@ -1,0 +1,44 @@
+header {
+   position: absolute;
+   left: 0;
+   top: 2px;
+   height: 90px;
+   width: 100%;
+   background: url('../images/logo.png') no-repeat 120px 0px;
+}
+body#loginPage section#content {
+   position: absolute;
+   top: 200px;
+   left: 50%;
+   width: 500px;
+   margin: 0 0 0 -250px;
+   padding: 0;
+   font-size: bold 13px;
+   color: #000333;
+}
+
+form label {
+   display: block;
+   width: 170px;
+   float: left;
+   text-align: right;
+   padding: 2px 10px 0 0;
+}
+form input[type="email"],form input[type="text"],form input[type="password"] {
+   display: block;
+   width: 250px;
+   padding: 2px;
+}
+form input[type="submit"] {
+   margin: 0 20px 0 160px;
+   border-style: solid;
+   border-width: 1px;
+   background-color: rgb(0, 255, 170);
+   color:aliceblue;
+   font-size: bold 2;
+   text-align: center;
+   padding: 2px 15px 3px 15px;
+}
+a {
+   color: #36569b;
+}
