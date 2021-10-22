@@ -3,7 +3,11 @@
 {% block bodyId %}loginPage{% endblock %}
 
 {% block content %}
-<form action=" " method="get">
+<form action="login" method="post">
+    {% csrf_token %}
+    {% if error %}
+    <p class="error">{{ error }}</p>
+    {% endif %}
     <p>
         <label for="email">Email : </label>
         <input name="email" id="email" size="50" type="email"/>

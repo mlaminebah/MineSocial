@@ -42,3 +42,7 @@ form input[type="submit"] {
 a {
    color: #36569b;
 }
+form p.error {
+   margin-left: 155px;
+   color: red;
+}
