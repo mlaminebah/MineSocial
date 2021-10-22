@@ -3,10 +3,11 @@
 #from django.http import HttpResponse
 from django.shortcuts import redirect, render
 from datetime import datetime
+from MineSocial.forms import LoginForm
 
 def welcome (request):
     return render (request,'welcome.html',{'current_date_time': datetime.now})
-def login (request):
+"""def login (request):
     #verfie si le formulaire à été envoyé : il faut que la taille du tableau post soit différent de 0
     if len(request.POST) > 0:
         #on véririe si les paramètres attends sont transmis
@@ -25,4 +26,13 @@ def login (request):
                 return redirect ('/welcome')
         return render (request,'login.html',{'error':error})
     else:
-        return render (request,'login.html')
+        return render (request,'login.html')"""
+def login (request):
+    #vérification que le formulaire ai été envoyé
+    if len (request.POST) > 0:
+        form = LoginForm (request.POST)
+        if form.is_valid (): return redirect ('/welcome')
+        else: return render (request,'login.html',{'form':form})
+    else:
+        form = LoginForm ()
+        return render (request,'login.html',{'form': form})

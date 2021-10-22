@@ -5,17 +5,7 @@
 {% block content %}
 <form action="login" method="post">
     {% csrf_token %}
-    {% if error %}
-    <p class="error">{{ error }}</p>
-    {% endif %}
-    <p>
-        <label for="email">Email : </label>
-        <input name="email" id="email" size="50" type="email"/>
-    </p>
-    <p>
-        <label for="password">Mot de passe : </label>
-        <input name="password" id="password" size="15" type="password"/>
-    </p>
+    {{ form.as_p }}
     <p>
         <input type="submit" value="se connecter"/>
         <a href="#">je crée un compte</a>
