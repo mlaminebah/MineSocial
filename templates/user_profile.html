@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+{% block title %} Nouveau Profile {% endblock %}
+{% block bodyId %}userProfilePage {% endblock %}
+{% block content %}
+<h1> Création compte </h1>
+
+<form>
+    <p>
+        <label for="ProfileType"> Profession : </label>
+            <select id="profileType">
+                <option value="student" {% if studentForm.is_bound %} selected="selected" {% endif %}>Étudiant</option>
+                <option value="employe" {% if studentForm.is_bound %} selected="selected" {% endif %}>Employe</option>
+            </select>
+    </p>
+</form>
+<form ation="register" method="get" id="studentForm">
+    {{ studentForm.as_p }}
+    <p>
+        <input type="hidden" name="profileType" value="student" />
+        <input type="submit" value="créer compte"/>
+    </p>
+</form>
+<form ation="register" method="get" id="employeForm">
+    {{ employeForm.as_p }}
+    <p>
+        <input type="hidden" name="profileType" value="employe" />
+        <input type="submit" value="créer compte"/>
+    </p>
+</form>
+<script>
+    $('#profileType').change (() => {
+        let type = $('#profileType');
+        if (type.val () == 'student') {
+            $('#studentForm').show ();
+            $('#employeForm').hide ();
+            console.log(type.val ());
+        } else {
+            console.log (type.val());
+            $('#studentForm').hide ();
+            $('#employeForm').show ();
+        }
+    });
+</script>
+{% endblock %}

@@ -1,4 +1,4 @@
-#-*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
 """MineSocial URL Configuration
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/3.2/topics/http/urls/
@@ -14,10 +14,12 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.conf.urls import url
-from MineSocial.views import welcome,login
-
+from MineSocial.views import welcome, login,register
+from django.contrib import admin
 urlpatterns = [
-    url('^welcome$', welcome),
-    url('^login$',login),
-    url('^$',login),
+    url("^welcome$", welcome),
+    url("^login$", login),
+    url("^$", login),
+    url("^admin/",admin.site.urls),
+    url("^register$",register),
 ]
